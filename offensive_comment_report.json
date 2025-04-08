@@ -1,0 +1,56 @@
+{
+    "total_comments": 200,
+    "num_offensive_comments": 118,
+    "offense_type_breakdown": {
+        "toxicity": 50,
+        "profanity": 48,
+        "hate speech": 20
+    },
+    "top_5_most_severe_offensive_comments_varied": [
+        {
+            "comment_id": "14",
+            "username": "HateSpeechHarry",
+            "comment_text": "I don't think people of a certain race should be allowed to use this platform, they're ruining it for everyone else.",
+            "is_offensive": true,
+            "offense_type": "hate speech",
+            "explanation": "The comment expresses a discriminatory belief against a specific race, suggesting they should be excluded from the platform, which constitutes hate speech.",
+            "severity": 5
+        },
+        {
+            "comment_id": "68",
+            "username": "ToxicTom",
+            "comment_text": "You're just a waste of space, nobody likes you, and your opinions don't matter, shut up!",
+            "is_offensive": true,
+            "offense_type": "toxicity",
+            "explanation": "The comment contains insults and dismissive language directed at the recipient, indicating a high level of rudeness and negativity.",
+            "severity": 4
+        },
+        {
+            "comment_id": "15",
+            "username": "ProfanityPam",
+            "comment_text": "This app is freaking amazing, I'm so f***ing happy with the new design!",
+            "is_offensive": true,
+            "offense_type": "profanity",
+            "explanation": "The comment contains profanity ('f***ing'), which is considered offensive language, though it is used in a positive context.",
+            "severity": 2
+        },
+        {
+            "comment_id": "29",
+            "username": "RacistRachel",
+            "comment_text": "I don't think people of that race should be allowed to use this product, it's not for them.",
+            "is_offensive": true,
+            "offense_type": "hate speech",
+            "explanation": "The comment expresses a discriminatory viewpoint against a specific race, suggesting they should be excluded from using a product, which constitutes hate speech.",
+            "severity": 5
+        },
+        {
+            "comment_id": "38",
+            "username": "RachelRacist",
+            "comment_text": "I don't think people of that race should be allowed to participate in this competition, it's just not fair",
+            "is_offensive": true,
+            "offense_type": "hate speech",
+            "explanation": "The comment expresses a discriminatory belief against a specific race, suggesting they should be excluded from participation based on their race, which constitutes hate speech.",
+            "severity": 5
+        }
+    ]
+}

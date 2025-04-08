@@ -1,0 +1,9 @@
+dotenv
+groq
+openai
+joblib
+Faker
+matplotlib 
+profanity-check 
+better-profanity
+scikit-learn
