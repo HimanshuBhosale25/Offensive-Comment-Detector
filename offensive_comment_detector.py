@@ -80,7 +80,7 @@ def pre_filter_comments(comments: List[Dict]) -> List[Dict]:
 def analyze_comment_with_ai(comment: Dict) -> Dict:
     """Analyzes a comment using OpenAI to detect offensive content with severity."""
     if comment.get('is_offensive') and comment.get('offense_type') == 'profanity':
-        comment['severity'] = 1  # Assign a lower severity to basic profanity
+        comment['severity'] = 1  
         return comment
 
     text = comment.get('comment_text', '')
