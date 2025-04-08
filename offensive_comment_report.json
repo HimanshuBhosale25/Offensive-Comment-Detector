@@ -1,8 +1,8 @@
 {
     "total_comments": 200,
-    "num_offensive_comments": 118,
+    "num_offensive_comments": 120,
     "offense_type_breakdown": {
-        "toxicity": 50,
+        "toxicity": 52,
         "profanity": 48,
         "hate speech": 20
     },
@@ -13,16 +13,16 @@
             "comment_text": "I don't think people of a certain race should be allowed to use this platform, they're ruining it for everyone else.",
             "is_offensive": true,
             "offense_type": "hate speech",
-            "explanation": "The comment expresses a discriminatory belief against a specific race, suggesting they should be excluded from the platform, which constitutes hate speech.",
+            "explanation": "The comment expresses a discriminatory view against a specific race, suggesting they should be excluded from the platform, which constitutes hate speech.",
             "severity": 5
         },
         {
-            "comment_id": "68",
-            "username": "ToxicTom",
-            "comment_text": "You're just a waste of space, nobody likes you, and your opinions don't matter, shut up!",
+            "comment_id": "12",
+            "username": "TrollKing90",
+            "comment_text": "This is the worst update ever, you guys are idiots and should be fired!",
             "is_offensive": true,
             "offense_type": "toxicity",
-            "explanation": "The comment contains insults and dismissive language directed at the recipient, indicating a high level of rudeness and negativity.",
+            "explanation": "The comment expresses strong negative feelings towards the update and includes insults directed at the developers, labeling them as 'idiots' and suggesting they should be fired, which is rude and disrespectful.",
             "severity": 4
         },
         {
@@ -31,7 +31,7 @@
             "comment_text": "This app is freaking amazing, I'm so f***ing happy with the new design!",
             "is_offensive": true,
             "offense_type": "profanity",
-            "explanation": "The comment contains profanity ('f***ing'), which is considered offensive language, though it is used in a positive context.",
+            "explanation": "The comment contains profanity ('f***ing'), which is considered offensive language, though it is used in an expressive and positive context.",
             "severity": 2
         },
         {
@@ -40,7 +40,7 @@
             "comment_text": "I don't think people of that race should be allowed to use this product, it's not for them.",
             "is_offensive": true,
             "offense_type": "hate speech",
-            "explanation": "The comment expresses a discriminatory viewpoint against a specific race, suggesting they should be excluded from using a product, which constitutes hate speech.",
+            "explanation": "The comment expresses a discriminatory belief against a specific race, suggesting they should be excluded from using a product, which constitutes hate speech.",
             "severity": 5
         },
         {
@@ -49,7 +49,7 @@
             "comment_text": "I don't think people of that race should be allowed to participate in this competition, it's just not fair",
             "is_offensive": true,
             "offense_type": "hate speech",
-            "explanation": "The comment expresses a discriminatory belief against a specific race, suggesting they should be excluded from participation based on their race, which constitutes hate speech.",
+            "explanation": "The comment expresses a discriminatory belief against a specific race, suggesting they should be excluded from a competition, which constitutes hate speech.",
             "severity": 5
         }
     ]
