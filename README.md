@@ -1,6 +1,6 @@
 # 🚫 Offensive Comment Detector using Gen AI 🤖
 
-This script analyzes comments from a CSV 💾 or JSON 📄 file to detect offensive content using OpenAI's language models. It can pre-filter for basic profanity 🤬, analyze comments for various types of offensive language (toxicity ☢️, hate speech  ঘৃণা, harassment 😠, profanity 🙊), provide a summary report 📊, export the analyzed data 📤, and optionally generate a plot 📈 of offense type distribution and a JSON report summary 📝.
+This script analyzes comments from a CSV 💾 or JSON 📄 file to detect offensive content using OpenAI's language models. It can pre-filter for basic profanity , analyze comments for various types of offensive language (toxicity, hate speech, harassment, profanity), provide a summary report 📊, export the analyzed data 📤, and optionally generate a plot 📈 of offense type distribution and a JSON report summary 📝.
 Optionally, `data_generation.py` was used to create a dataset for this task where the `llama-3.3-70b-versatile` model was used to generate 200 comments.
 
 ## ⚙️ Setup Instructions
@@ -88,17 +88,20 @@ Optionally, `data_generation.py` was used to create a dataset for this task wher
 
 ## 📊 Sample Outputs
 
-**Distribution plot:**
-![Distribution Plot](images/i1.png)
-
-**Terminal summary after parsing and processing:**
-![TS](images/i2.png)
+**Analyzed csv:**
+[analyzed_comments.csv](analyzed_comments.csv) 💾
 
 **Report:**
 [offensive_comment_report.json](offensive_comment_report.json) 📄
 
-**Analyzed csv:**
-[analyzed_comments.csv](analyzed_comments.csv) 💾
+**Distribution plot:**
+
+![Distribution Plot](images/i1.png)
+
+**Terminal summary after parsing and processing:**
+
+![TS](images/i2.png)
+
 
 ## 📜 License
 
